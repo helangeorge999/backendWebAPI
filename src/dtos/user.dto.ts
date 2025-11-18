@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { UserSchema } from '../types/user.types';
+import { UserSchema } from '../types/user.type';
 
 // what clients send when creating a user
 export const CreateUserDto = UserSchema.extend({
